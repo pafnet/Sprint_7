@@ -31,7 +31,7 @@ public class CourierWithIdenticalLoginsTest {
 
     @Test
     @DisplayName("Creating several same couriers (shouldn't work, status code = 409)")
-    public void CouriersCreatedIdenticalImpossibleTest() {
+    public void couriersCreatedIdenticalImpossibleTest() {
 
         ValidatableResponse responseOne = courierClient.create(courier);
 

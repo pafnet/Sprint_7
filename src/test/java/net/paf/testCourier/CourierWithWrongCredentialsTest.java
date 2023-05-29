@@ -72,8 +72,4 @@ public class CourierWithWrongCredentialsTest {
         String message = loginResponse.extract().path("message");
         assertEquals(message,"Учетная запись не найдена");
     }
-
-    public void setCourierID(int courierID) {
-        this.courierID = courierID;
-    }
 }

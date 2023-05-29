@@ -2,7 +2,7 @@ package net.paf.testOrder;
 
 import io.restassured.response.ValidatableResponse;
 import net.paf.order.OrderClient;
-import net.paf.order.OrderGeneratorTest;
+import net.paf.order.OrderGenerator;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,7 +16,7 @@ public class OrderCreateTest {
 
     @Before
     public void setUp() {
-        order = OrderGeneratorTest.getRandomOrder();
+        order = OrderGenerator.getRandomOrder();
         orderClient = new OrderClient();
     }
 
