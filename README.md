@@ -13,7 +13,7 @@
 `mvn clean test`
 
 Откройте сгенерированный отчет в браузере:
-`allure serve target/surefire-reports/`
+`allure open`
 
 ## Автор проекта
 Павел Лапшин - [paf.net@ya.ru](mailto:paf.net@ya.ru)
