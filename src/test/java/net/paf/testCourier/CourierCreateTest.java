@@ -45,3 +45,4 @@ public class CourierCreateTest {
         assertNotNull("Courier was not created or id is incorrect", courierID);
     }
 }
+

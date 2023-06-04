@@ -32,3 +32,4 @@ public class CourierCredentials {
         this.password = password;
     }
 }
+

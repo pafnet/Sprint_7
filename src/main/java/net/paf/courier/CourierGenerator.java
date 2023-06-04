@@ -8,3 +8,4 @@ public class CourierGenerator {
         return new Courier(RandomStringUtils.randomAlphanumeric(10), "practicum.yandex.ru", "Pavel");
     }
 }
+

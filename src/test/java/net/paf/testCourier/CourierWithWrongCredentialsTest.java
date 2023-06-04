@@ -73,3 +73,4 @@ public class CourierWithWrongCredentialsTest {
         assertEquals(message,"Учетная запись не найдена");
     }
 }
+

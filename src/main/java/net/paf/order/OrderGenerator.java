@@ -29,3 +29,4 @@ public class OrderGenerator {
         return Integer.parseInt(RandomStringUtils.randomNumeric(1));
     }
 }
+
